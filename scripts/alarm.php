@@ -6,4 +6,4 @@
  * Time: 09:56 PM
  */
 
-echo $_POST['target-time'] . "<p> SELECTED TIME IS " . "</p>";
+echo "<p> SELECTED TIME IS " . $_POST['target-time'] . "</p>";
