@@ -10,6 +10,8 @@
     <input type="submit">
 </form>
 <?php
-echo $_POST['target-time'];
+$my_file = 'alarm.txt';
+$handle = fopen($my_file, 'w') or die('Cannot open file:  ' . $my_file);
+fwrite($handle, $_POST["target-time"]);
 ?>
 </body>
