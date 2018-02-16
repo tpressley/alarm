@@ -7,6 +7,9 @@
           <mappings>
             <mapping deploy="/home/pi/wrk/alarm" local="$PROJECT_DIR$" />
             <mapping deploy="/var/www/html" local="$PROJECT_DIR$/html" />
+            <mapping deploy="/var/www/html/src" local="$PROJECT_DIR$/src" />
+            <mapping deploy="/var/www/html/scripts" local="$PROJECT_DIR$/scripts" />
+            <mapping deploy="/var/www/html/style" local="$PROJECT_DIR$/style" />
           </mappings>
         </serverdata>
       </paths>
